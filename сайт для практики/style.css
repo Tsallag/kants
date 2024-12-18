@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f4f4f4; /* Цвет фона шапки */
+  padding: 20px 0; /* Отступы */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Максимальная ширина контейнера */
+  margin: 0 auto; /* Центрирование */
+  padding: 0 20px; /* Боковые отступы */
+}
+
+.logo img {
+  max-height: 40px; /* Высота логотипа */
+}
+
+nav ul {
+  list-style: none; /* Убираем маркеры */
+  display: flex;
+  margin: 0; /* Убираем отступы */
+  padding: 0; /* Убираем отступы */
+}
+
+nav ul li {
+  margin-left: 20px; /* Отступы между пунктами меню */
+}
+
+nav ul li a {
+  text-decoration: none; /* Убираем подчеркивание */
+  color: #333; /* Цвет текста */
+  padding: 8px 16px; /* Отступы вокруг текста */
+}
+
+nav ul li a:hover {
+  background-color: #ddd; /* Цвет при наведении */
+  border-radius: 4px; /* Скругление углов */
+}
+
+.contact-info {
+  font-size: 14px; /* Размер шрифта */
+  color: #333; /* Цвет текста */
+}
+
+/* Стили для кнопки */
+.dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Контейнер для выпадающего списка */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Скрытый контент выпадающего списка */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для ссылок внутри выпадающего списка */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Стили для ссылок при наведении */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+/* Показать выпадающий список при наведении на кнопку */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff; /* Цвет фона блока */
+}
+.serdse,
+.vesy,
+.basket {
+  margin-right: 5px;
+}
+.logo1 img {
+  max-height: 40px; /* Высота логотипа */
+  margin-left: 250px;
+}
+.poisk {
+  width: 250px;
+  height: 13px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  padding: 13px;
+  border: 1px solid #ccc; /* Цвет границы */
+  border-radius: 5px 0 0 4px; /* Скругление левой стороны */
+}
+
+.search-button {
+  padding: 10px;
+  border: 2px solid #c4baba; /* Цвет границы */
+  background-color: #f32d2d; /* Цвет фона кнопки */
+  border-left: none; /* Убираем границу между полем и кнопкой */
+  cursor: pointer;
+  border-radius: 0 4px 4px 0; /* Скругление правой стороны */
+}
+
+.search-button img {
+  max-width: 15px; /* Размер иконки лупы */
+}
+
+.buttons {
+  display: flex;
+  gap: 35px; /* Отступы между кнопками */
+  margin-right: 45px;
+}
+
+.buttons button {
+  padding: 10px 15px;
+  border: none; /* Убираем границу */
+  background-color: #ffffff; /* Цвет фона кнопок */
+  color: rgb(0, 0, 0); /* Цвет текста */
+  cursor: pointer;
+  border-radius: 4px; /* Скругление кнопок */
+}
+
+.buttons button:hover {
+  background-color: #ff9c9c; /* Цвет при наведении */
+}
+
+.button-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+#red{
+  background-color: rgb(186, 50, 50);
+}
+.btn {
+  display: flex;
+
+  align-items: center;
+  padding: 7px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.btn img {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
